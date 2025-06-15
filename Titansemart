@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Titans E-Mart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-700 to-purple-600 text-white p-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="logo.png" alt="Titansemart Logo" class="w-12 h-12"/>
+        <h1 class="text-2xl font-bold">Titans E-Mart</h1>
+      </div>
+      <input type="text" placeholder="Search products..." class="p-2 rounded text-black w-60"/>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-12 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-bold mb-4 text-purple-800">Bringing joy to every home</h2>
+      <p class="mb-6 text-lg text-gray-600">One click at a time. Find everything from baby care to electronics at unbeatable prices.</p>
+      <a href="#products" class="bg-purple-700 text-white px-6 py-3 rounded hover:bg-purple-900 transition">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="py-10">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/4359/4359922.png" class="w-20 mx-auto mb-2"/>
+        <h3 class="font-semibold text-blue-700">Baby Products</h3>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/3456/3456403.png" class="w-20 mx-auto mb-2"/>
+        <h3 class="font-semibold text-purple-600">Cosmetics</h3>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/2721/2721710.png" class="w-20 mx-auto mb-2"/>
+        <h3 class="font-semibold text-blue-700">Electronics</h3>
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046750.png" class="w-20 mx-auto mb-2"/>
+        <h3 class="font-semibold text-purple-600">Home Appliances</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="products" class="py-10 bg-gray-50">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6 text-center text-blue-700">Featured Products</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <!-- Sample Product -->
+        <div class="bg-white p-4 shadow rounded text-center">
+          <img src="https://via.placeholder.com/200" class="w-full mb-2">
+          <h3 class="font-semibold">Baby Stroller</h3>
+          <p class="text-purple-700 font-bold">Rs. 6,500</p>
+          <button class="mt-2 bg-purple-700 text-white px-4 py-1 rounded hover:bg-purple-900">Buy</button>
+        </div>
+        <!-- Add 3 more product blocks as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-blue-700 to-purple-600 text-white p-6 mt-10">
+    <div class="max-w-7xl mx-auto text-center">
+      <p class="font-medium">&copy; 2025 Titans E-Mart | +977-9742887734</p>
+      <p class="text-sm mt-1">Bringing joy to every home, one click at a time</p>
+      <div class="flex justify-center gap-4 mt-2 text-sm">
+        <a href="https://www.facebook.com/profile.php?id=61558211154522" target="_blank">Facebook</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">Viber</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
